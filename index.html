@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 10 JS: API Calls</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>API Calls in JavaScript</h1>
+    <br>
+    <h3>Fetching data with:</h3>
+    <div class="button-container">
+        <button id="fetch-butn">Fetch Data with fetch()</button>
+        <button id="xhr-butn">Fetch Data with XHR</button>
+    </div>
+    
+    <br>
+    <h3>Display Area of Fetched Data:</h3>
+    <div id="display-area">Display area of fetched data</div>
+    <br>
+    <form id="post-form">
+        <h3>Form:</h3>
+        <input type="text" id="post-id" placeholder="Post ID (for PUT)">
+        <input type="text" id="post-title" placeholder="Write a title" required>
+        <textarea id="post-body" placeholder="Write a message" required></textarea>
+        <button type="submit">Submit</button>
+    </form>
+    <br>
+    <h3>Display Area for Form: </h3>
+    <div id="form-display-area">Display area for form submission</div>
+    <script src="script.js"></script>
+</body>
+</html>

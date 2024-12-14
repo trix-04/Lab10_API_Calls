@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+}
+
+#fetch-butn, #xhr-butn {
+    flex: 1; 
+    margin: 0;
+    padding: 12px;
+    border-radius: 7px;
+    border: none;
+    max-width: 200px;
+    
+}
+
+#fetch-butn:hover{
+    background-color:rgb(115, 178, 212);
+}
+
+#xhr-butn:hover{
+    background-color: rgb(239, 125, 88);
+}
+
+#display-area, #form-display-area {
+    margin-top: 5px;
+    padding: 15px;
+    border: 0.5px solid grey;
+    border-radius: 5px;
+    max-width: 600px;
+    color:rgb(141, 135, 135);
+    font-size:13px;
+    font-weight:lighter;
+}
+
+form {
+    margin-top: 20px;
+
+}
+
+input, textarea {
+    display: block;
+    margin: 10px 0;
+    padding: 15px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.fetch-title{ /*finish editing this */
+    color: rgb(56, 56, 155);
+    font-size: medium;
+
+}
+
+.fetch-body{ /*finish editing this */
+    color: rgb(115,178,212);
+    font:bolder;
+    font-size: medium;
+
+}
+
+.fetch-error, .XHR-error, .XHR-fail-error, .post-error, .update-error, .update-fail{
+    color:red;
+    font-size:medium;
+    font:bold;
+}
+
+.XHR-title{
+    color:rgb(228, 96, 30);
+    font-size: medium;
+
+}
+
+.XHR-body{
+    color:rgb(231, 171, 92);
+    font:bolder;
+    font-size: medium;
+}
+
+.post-ID-msg{
+    color:rgb(68, 212, 32);
+    font-size:medium;
+    font:bold;
+}
+
+.update-title{
+    color:blueviolet;
+    font-size: medium;
+    font:bold;
+}
+
+.update-body{
+    color:rgb(226, 100, 209);
+    font-size:medium;
+    font:bold;
+}
